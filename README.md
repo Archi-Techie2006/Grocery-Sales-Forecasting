@@ -72,8 +72,15 @@ Four regression models were implemented:
 | 🟣 XGBoost | Gradient boosting model |
 
 ---
+## 📈 Model Evaluation
 
-## 📈 Model Comparison
+The models were evaluated using three performance metrics:
+
+- **MAE (Mean Absolute Error)** — measures the average absolute difference between actual and predicted sales.
+- **RMSE (Root Mean Squared Error)** — measures prediction error while giving more weight to larger errors.
+- **R² (R-squared)** — indicates how well the model explains the variation in sales.
+
+### 📊 Model Performance
 
 | Model | MAE | RMSE | R² |
 |---|---:|---:|---:|
@@ -82,7 +89,11 @@ Four regression models were implemented:
 | Random Forest | 748.42 | 1070.14 | 0.5787 |
 | XGBoost | 735.14 | 1053.76 | 0.5915 |
 
----
+### 📊 R² Comparison
+
+The R² values of the four models are compared below.
+
+![R² Model Comparison](r2_model_comparison.png)
 
 ##  Project Workflow
 
