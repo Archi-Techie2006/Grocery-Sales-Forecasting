@@ -40,7 +40,11 @@ The dataset contains information related to grocery products and their outlet sa
 The project contains **8,523 observations and 13 columns**.
 
 ---
+### 📊 Distribution of Item Outlet Sales
 
+This visualization shows the distribution of sales values in the dataset.
+
+![Distribution of Item Outlet Sales](sales_distribution.png)
 ##  Exploratory Data Analysis
 
 The project includes visual analysis such as:
@@ -79,20 +83,20 @@ Four regression models were implemented:
 ##  Project Workflow
 
 ```text
-📂 Dataset
+ Dataset
      ↓
-🔍 Exploratory Data Analysis
+ Exploratory Data Analysis
      ↓
-🧹 Data Preprocessing
+ Data Preprocessing
      ↓
-🔤 Feature Encoding
+Feature Encoding
      ↓
-📏 Feature Scaling
+ Feature Scaling
      ↓
-✂️ Train-Test Split
+Train-Test Split
      ↓
-🤖 Model Training
+ Model Training
      ↓
-📊 Model Evaluation
+Model Evaluation
      ↓
-📈 Comparison of Results
+Comparison of Results
