@@ -60,16 +60,21 @@ variation in sales across product categories.
 
 ---
 
-##  Machine Learning Models
+## Machine Learning Models
 
-Four regression models were implemented:
+Four regression models were trained and evaluated:
 
-| Model | Purpose |
-|---|---|
-| 🔵 Linear Regression | Baseline regression model |
-| 🟢 Decision Tree | Tree-based regression |
-| 🟠 Random Forest | Ensemble tree-based model |
-| 🟣 XGBoost | Gradient boosting model |
+###  Linear Regression
+Used as a baseline regression model.
+
+###  Decision Tree
+A tree-based regression model used to capture non-linear relationships.
+
+###  Random Forest
+An ensemble of decision trees used for regression.
+
+###  XGBoost
+A gradient boosting model used for regression.
 
 ---
 ## 📈 Model Evaluation
