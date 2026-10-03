@@ -40,19 +40,23 @@ The dataset contains information related to grocery products and their outlet sa
 The project contains **8,523 observations and 13 columns**.
 
 ---
+## 🔎 Exploratory Data Analysis
+
+Exploratory Data Analysis was performed to understand the dataset and
+identify patterns in grocery outlet sales.
+
 ### 📊 Distribution of Item Outlet Sales
 
-This visualization shows the distribution of sales values in the dataset.
+The distribution of `Item_Outlet_Sales` was visualized to understand
+how the sales values are spread across the dataset.
 
 ![Distribution of Item Outlet Sales](sales_distribution.png)
-##  Exploratory Data Analysis
 
-The project includes visual analysis such as:
+### 🥫 Average Sales by Item Type
 
-- 📈 Distribution of Item Outlet Sales
-- 🥫 Average Sales by Item Type
-- 📊 Actual vs Predicted Sales
-- 📉 Model R² Comparison
+The average sales for different item types were compared to observe
+variation in sales across product categories.
+![Average Sales by Item Type](average_sales_by_item_type.png)
 
 ---
 
